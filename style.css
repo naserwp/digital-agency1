@@ -1,0 +1,296 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #9b9898;
+    color:#fff;
+
+}
+.menu-container nav ul{
+    display: flex;
+    
+}
+.menu-items{
+    
+    list-style: none;
+}
+.menu-items a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+    color: #fff;
+
+}
+
+
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+
+
+}
+.banner-details{
+
+}
+.banner-title{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+}
+.red-title{
+    color: red;
+}
+.banner-description{
+    max-width: 880px;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px;
+}
+section.banner-container .buttons {
+    margin-top: 24px;
+}
+button.btn {
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px 35px;
+    margin: 8px;
+    background: red;
+    transition: .5s;
+    transform: scale(1);
+    cursor: pointer;
+}
+button.btn:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+button.btn.btn-hire {
+    color: red;
+    background: #fff;
+}
+/* Service CSS Style Start */
+section.services-container {
+    background: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-blend-mode: overlay;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+/* .section.services-container .services{
+    
+} */
+section.services-container .service-left {
+    width: 50%;
+}
+section.services-container .service-right {
+    width: 50%;
+    margin-bottom: 30px;
+}
+button.btn.btn-ser-list {
+    color: gray;
+    background: #fff;
+    border-radius: 25px;
+}
+h1.section-title {
+    color: rgb(175, 191, 192);
+    padding: 7px;
+    font-size: 40px;
+    font-weight: bold;
+}
+p.section-description{
+    font-size: 20px;
+    padding: 12px;
+    color: rgb(190, 207, 208)
+}
+ul.service-list-number{
+    list-style: decimal;
+    padding: 22px;
+    font-size: 18px;
+    color: rgb(176, 190, 190);
+}
+ul.service-list-number li{
+
+}
+.service-author {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.service-author-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-right: 1px solid red;
+}
+.service-author-details img {
+    width: 60px;
+    border-radius: 100px;
+    padding: 7px;
+}
+.service-author-btn button.btn.btn-ser-list.btn-red {
+    color: red;
+}
+
+.service-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.serv-box-item {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+    box-shadow: 4px 4px 8px rgb(16 15 15);
+    background-color: #fff;
+    color: #000;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 50px;
+    text-align: center;
+}
+img.service-box-img {
+    padding: 20px;
+    width: 100px;
+}
+
+section.appointment-container {
+    width: 75%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: -80px;
+    border-radius: 15px;
+}
+.appointment-call-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+.appointment-call-box img {
+    width: 100px;
+    padding: 15px;
+}
+/* Blog Section Style CSS */
+section.blog-container {
+    padding-top: 100px;
+}
+.blog-section-title {
+    text-align: center;
+}
+.blog-section-title h1.section-title {
+    color: #000;
+    font-size: 50px;
+}
+.blog-section-title p.section-description {
+    font-size: 22px;
+    color: #000;
+    width: 50%;
+    margin: 0 auto;
+}
+.blog-box-container {
+    padding: 30px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-iteams {
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px grey;
+    background: #fff;
+    margin: 25px;
+}
+img.blog-img {
+    width: 350px;
+    border-radius: 15px 15px 0 0;
+    padding-bottom: 10px;
+}
+.blog-text-content {
+    padding: 15px;
+}
+h3.blog-iteam-title {
+    font-size: 23px;
+    color: #282020d6;
+}
+p.blog-description {
+    font-size: 18px;
+    margin-top: 15px;
+}
+/* Footer CSS Style Start */
+footer {
+    background: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    /* height: 70vh; */
+    width: 100%;
+    background-repeat: no-repeat;
+    color: #FFF;
+}
+.footer-container-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding: 70px 0;
+    height: 60vh;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+.footer-iteams {
+    width: 25%;
+    margin-right: 20px;
+    padding: 20px;
+}
+.social-icon {
+    margin-top: 20px;
+}
+.social-icon a {
+    color: #FFF;
+    margin-right: 15px;
+}
+h3.footer-title, .footer-logo-box img {
+    margin-bottom: 30px;
+}
+ul.footer-links li {
+    list-style: none;
+}
+ul.footer-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+    display: block;
+}
+.footer-iteams p {
+    margin-bottom: 10px;
+}
+.footer-container-botom {
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+
